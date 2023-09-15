@@ -184,7 +184,7 @@ func newFunctionCaller() *functionCaller {
 			handler: jpfFloor,
 		},
 		"map": {
-			name: "map",
+			name: "amp",
 			arguments: []argSpec{
 				{types: []jpType{jpExpref}},
 				{types: []jpType{jpArray}},
@@ -470,7 +470,7 @@ func jpfMap(arguments []interface{}) (interface{}, error) {
 	intr := arguments[0].(*treeInterpreter)
 	exp := arguments[1].(expRef)
 	node := exp.ref
-	arr := toSlice(arguments[2])
+	arr := arguments[2].([]interface{})
 	mapped := make([]interface{}, 0, len(arr))
 	for _, value := range arr {
 		current, err := intr.Execute(node, value)
