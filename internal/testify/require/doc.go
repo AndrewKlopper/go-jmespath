@@ -6,7 +6,7 @@
 // The following is a complete example using require in a standard test function:
 //    import (
 //      "testing"
-//      "github.com/jmespath/go-jmespath/internal/testify/require"
+//      "github.com/AndrewKlopper/go-jmespath/internal/testify/require"
 //    )
 //
 //    func TestSomething(t *testing.T) {

@@ -1,5 +1,5 @@
 /*
-* CODE GENERATED AUTOMATICALLY WITH github.com/jmespath/go-jmespath/internal/testify/_codegen
+* CODE GENERATED AUTOMATICALLY WITH github.com/AndrewKlopper/go-jmespath/internal/testify/_codegen
 * THIS FILE MUST NOT BE EDITED BY HAND
  */
 

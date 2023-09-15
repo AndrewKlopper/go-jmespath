@@ -1,12 +1,12 @@
 /*
-* CODE GENERATED AUTOMATICALLY WITH github.com/jmespath/go-jmespath/internal/testify/_codegen
+* CODE GENERATED AUTOMATICALLY WITH github.com/AndrewKlopper/go-jmespath/internal/testify/_codegen
 * THIS FILE MUST NOT BE EDITED BY HAND
  */
 
 package require
 
 import (
-	assert "github.com/jmespath/go-jmespath/internal/testify/assert"
+	assert "github.com/AndrewKlopper/go-jmespath/internal/testify/assert"
 	http "net/http"
 	url "net/url"
 	time "time"

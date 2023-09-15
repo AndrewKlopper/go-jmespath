@@ -1,4 +1,4 @@
-module github.com/jmespath/go-jmespath/internal/testify/_codegen
+module github.com/AndrewKlopper/go-jmespath/internal/testify/_codegen
 
 go 1.11
 

@@ -32,8 +32,8 @@
 //     // Basic imports
 //     import (
 //         "testing"
-//         "github.com/jmespath/go-jmespath/internal/testify/assert"
-//         "github.com/jmespath/go-jmespath/internal/testify/suite"
+//         "github.com/AndrewKlopper/go-jmespath/internal/testify/assert"
+//         "github.com/AndrewKlopper/go-jmespath/internal/testify/suite"
 //     )
 //
 //     // Define the suite, and absorb the built-in basic suite

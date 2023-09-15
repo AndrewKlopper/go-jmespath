@@ -9,8 +9,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/jmespath/go-jmespath/internal/testify/assert"
-	"github.com/jmespath/go-jmespath/internal/testify/require"
+	"github.com/AndrewKlopper/go-jmespath/internal/testify/assert"
+	"github.com/AndrewKlopper/go-jmespath/internal/testify/require"
 )
 
 /*
