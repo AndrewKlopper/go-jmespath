@@ -97,3 +97,20 @@ func toObject(value interface{}) map[string]interface{} {
 		return nil
 	}
 }
+
+func toSlice(value interface{}) []interface{} {
+	rv := reflect.Indirect(reflect.ValueOf(value))
+	if rv.Kind() == reflect.Slice {
+		rt := rv.Type()
+		if rt.Elem().Kind() == reflect.Interface {
+			return value.([]interface{})
+		}
+		size := rv.Len()
+		ret := make([]interface{}, size)
+		for i := 0; i < size; i++ {
+			ret[i] = rv.Index(i).Interface()
+		}
+		return ret
+	}
+	return nil
+}
