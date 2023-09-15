@@ -1,4 +1,4 @@
-module github.com/jmespath/go-jmespath/internal/testify
+module github.com/AndrewKlopper/go-jmespath/internal/testify
 
 require (
 	github.com/davecgh/go-spew v1.1.0
