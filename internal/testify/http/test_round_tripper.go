@@ -1,7 +1,7 @@
 package http
 
 import (
-	"github.com/AndrewKlopper/go-jmespath/internal/testify/mock"
+	"github.com/jmespath/go-jmespath/internal/testify/mock"
 	"net/http"
 )
 

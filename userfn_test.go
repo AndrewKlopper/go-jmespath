@@ -1,7 +1,7 @@
 package jmespath
 
 import (
-	"github.com/AndrewKlopper/go-jmespath/internal/testify/assert"
+	"github.com/jmespath/go-jmespath/internal/testify/assert"
 	"strings"
 	"testing"
 )
