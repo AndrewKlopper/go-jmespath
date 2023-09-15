@@ -11,7 +11,7 @@ Evaluate the JMESPath expression against JSON data from a file:
     jp.go -input /tmp/data.json "foo.bar.baz"
 
 This program can also be used as an executable to the jp-compliance
-runner (github.com/jmespath/jmespath.test).
+runner (github.com/AndrewKlopper/jmespath.test).
 
 */
 package main
@@ -26,7 +26,7 @@ import (
 import (
 	"encoding/json"
 
-	"github.com/jmespath/go-jmespath"
+	"github.com/AndrewKlopper/go-jmespath"
 )
 
 func errMsg(msg string, a ...interface{}) int {
